@@ -2,20 +2,6 @@
 
 This repository contains a modular SystemVerilog testbench to verify a D Flip-Flop (DFF) design. It uses mailboxes, events, and class-based components like generators, drivers, monitors, and a scoreboard
 
-dff-verification-systemverilog/
-├── src/
-│   ├── dff.sv
-│  
-├── tb/
-│   ├── transaction.sv
-│   ├── generator.sv
-│   ├── driver.sv
-│   ├── monitor.sv
-│   ├── scoreboard.sv
-│   ├── env.sv
-│   └── tb.svd
-├── README.md
-
  Modular testbench with:
   - `transaction` class for input/output abstraction
   - `generator` to randomize and send inputs
